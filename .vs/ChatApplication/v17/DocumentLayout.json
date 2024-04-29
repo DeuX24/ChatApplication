@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\danni\\Documents\\GitHub\\ChatApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3A84328B-C526-4815-929D-7B8BA2126939}|ChatApplication\\ChatApplication.csproj|c:\\users\\danni\\documents\\github\\chatapplication\\chatapplication\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A84328B-C526-4815-929D-7B8BA2126939}|ChatApplication\\ChatApplication.csproj|solutionrelative:chatapplication\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A84328B-C526-4815-929D-7B8BA2126939}|ChatApplication\\ChatApplication.csproj|c:\\users\\danni\\documents\\github\\chatapplication\\chatapplication\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A84328B-C526-4815-929D-7B8BA2126939}|ChatApplication\\ChatApplication.csproj|solutionrelative:chatapplication\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A84328B-C526-4815-929D-7B8BA2126939}|ChatApplication\\ChatApplication.csproj|c:\\users\\danni\\documents\\github\\chatapplication\\chatapplication\\clientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3A84328B-C526-4815-929D-7B8BA2126939}|ChatApplication\\ChatApplication.csproj|solutionrelative:chatapplication\\clientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -18,11 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\danni\\Documents\\GitHub\\ChatApplication\\ChatApplication\\Server.cs",
+              "RelativeDocumentMoniker": "ChatApplication\\Server.cs",
+              "ToolTip": "C:\\Users\\danni\\Documents\\GitHub\\ChatApplication\\ChatApplication\\Server.cs",
+              "RelativeToolTip": "ChatApplication\\Server.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T12:32:33.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\danni\\Documents\\GitHub\\ChatApplication\\ChatApplication\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ChatApplication\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\danni\\Documents\\GitHub\\ChatApplication\\ChatApplication\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ChatApplication\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T12:32:32.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\danni\\Documents\\GitHub\\ChatApplication\\ChatApplication\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ChatApplication\\MainWindow.xaml",
@@ -34,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ClientWindow.xaml",
               "DocumentMoniker": "C:\\Users\\danni\\Documents\\GitHub\\ChatApplication\\ChatApplication\\ClientWindow.xaml",
               "RelativeDocumentMoniker": "ChatApplication\\ClientWindow.xaml",

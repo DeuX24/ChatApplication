@@ -16,8 +16,8 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBox x:Name="addressTextBox" TextWrapping="Wrap" Text="IP Address Here" Margin="10,30,10,30" VerticalContentAlignment="Center"/>
-        <TextBox x:Name="portTextBox" TextWrapping="Wrap" Text="Port Here" Grid.Column="1" Margin="10,30,10,30" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="addressTextBox" AcceptsReturn="False" MaxLines="1" TextWrapping="Wrap" Text="IP Address Here" Margin="10,30,10,30" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="portTextBox" MaxLines="1" AcceptsReturn="False" TextWrapping="Wrap" Text="Port Here" Grid.Column="1" Margin="10,30,10,30" VerticalContentAlignment="Center"/>
         <Button x:Name="Listen_Button" Grid.Column="2" Content="Listen" VerticalAlignment="Center" HorizontalAlignment="Center" Width="60" Height="25" Click="Listen_Button_Click" Margin="0,40,0,0"/>
         <Button x:Name="Connect_Button" Grid.Column="2" Content="Connect" VerticalAlignment="Center" HorizontalAlignment="Center" Width="60" Height="25" Grid.Row="1" Click="Connect_Button_Click" Margin="0,0,0,40"/>
 

@@ -12,7 +12,7 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <TextBlock x:Name="lastMessageTextBlock" TextWrapping="Wrap" Margin="20,20,20,30"><Run Language="en-gb" Text="Text from your recipient arrives here"/></TextBlock>
-        <TextBox x:Name="inputTextBox" Grid.Row="1" TextWrapping="Wrap" Text="Write here" Margin="20,30,20,20"/>
+        <TextBox x:Name="inputTextBox" Grid.Row="1" AcceptsReturn="True" TextWrapping="Wrap" Text="Write here" Margin="20,30,20,20"/>
         <Button x:Name="SendButton" Content="Send Message" HorizontalAlignment="Left" Click="SendButton_Click" Margin="480,205,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.62,-1.642" Height="24" Width="100" Grid.RowSpan="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
         <Label Content="Your Username:" HorizontalAlignment="Left" Margin="20,202,0,0" VerticalAlignment="Top" Height="30" Grid.RowSpan="2"/>
         <Label Content="Recipient Username:" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Grid.RowSpan="2" Width="120"/>
