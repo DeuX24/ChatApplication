@@ -1,0 +1,23 @@
+<Window x:Class="ChatApplication.ClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:ChatApplication"
+        mc:Ignorable="d"
+        Title="ClientWindow" Height="450" Width="600">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="lastMessageTextBlock" TextWrapping="Wrap" Margin="20,20,20,30"><Run Language="en-gb" Text="Text from your recipient arrives here"/></TextBlock>
+        <TextBox x:Name="inputTextBox" Grid.Row="1" TextWrapping="Wrap" Text="Write here" Margin="20,30,20,20"/>
+        <Button x:Name="SendButton" Content="Send Message" HorizontalAlignment="Left" Click="SendButton_Click" Margin="480,205,0,0" VerticalAlignment="Top" RenderTransformOrigin="-3.62,-1.642" Height="24" Width="100" Grid.RowSpan="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+        <Label Content="Your Username:" HorizontalAlignment="Left" Margin="20,202,0,0" VerticalAlignment="Top" Height="30" Grid.RowSpan="2"/>
+        <Label Content="Recipient Username:" HorizontalAlignment="Center" VerticalAlignment="Center" Height="30" Grid.RowSpan="2" Width="120"/>
+        <TextBlock x:Name="recipientUsernameTextBlock" Margin="240,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Grid.RowSpan="2" Height="20" Width="100" HorizontalAlignment="Center"><Run Language="en-gb" Text="Username"/></TextBlock>
+        <TextBox x:Name="yourUsernameTextBox" LostFocus="yourUsernameTextBox_LostFocus" KeyDown="yourUsernameTextBox_KeyDown" HorizontalAlignment="Left" TextWrapping="NoWrap" MaxLines="1" AcceptsReturn="False" VerticalAlignment="Center" Width="100" Text="Username" Height="20" Grid.RowSpan="2" Margin="120,0,0,0" VerticalContentAlignment="Center"/>
+    </Grid>
+
+</Window>

@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ChatApplication"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="120" Width="400" ResizeMode="CanMinimize">
+    
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="addressTextBox" TextWrapping="Wrap" Text="IP Address Here" Margin="10,30,10,30" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="portTextBox" TextWrapping="Wrap" Text="Port Here" Grid.Column="1" Margin="10,30,10,30" VerticalContentAlignment="Center"/>
+        <Button x:Name="Listen_Button" Grid.Column="2" Content="Listen" VerticalAlignment="Center" HorizontalAlignment="Center" Width="60" Height="25" Click="Listen_Button_Click" Margin="0,40,0,0"/>
+        <Button x:Name="Connect_Button" Grid.Column="2" Content="Connect" VerticalAlignment="Center" HorizontalAlignment="Center" Width="60" Height="25" Grid.Row="1" Click="Connect_Button_Click" Margin="0,0,0,40"/>
 
     </Grid>
 </Window>
